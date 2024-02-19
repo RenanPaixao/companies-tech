@@ -1,5 +1,4 @@
 <script setup lang="ts">
-
 const route = useRoute()
 const title = computed(() => {
   return route.meta?.title || route.matched[0].meta?.title || ''
@@ -7,28 +6,31 @@ const title = computed(() => {
 
 useHead({
   title,
-  titleTemplate: (t) => (t ? `${t} | Companies Tech` : 'Companies Tech'),
+  titleTemplate: (t) =>
+    t ? `${t} | Tecnologias nas empresas` : 'Tecnologias nas empresas',
   htmlAttrs: { lang: 'pt' },
   link: [{ rel: 'icon', href: '/favicon.ico' }],
 })
 
 useSeoMeta({
   viewport: 'width=device-width, initial-scale=1, maximum-scale=1',
-  description: 'Companies technologies and their stacks',
+  description: 'Banco de tecnlogias usadas nas empresas do Brasil',
 })
 </script>
 
 <template>
-  <v-app>
+  <v-app class="container">
     <!-- https://github.com/vuetifyjs/vuetify/issues/15202 -->
     <v-main style="--v-layout-top: 64px; --v-layout-bottom: 32px">
       <NuxtPage />
     </v-main>
-
   </v-app>
 </template>
 
 <style scoped>
+.container {
+  background-color: var(--primary);
+}
 .v-main {
   padding-top: 0;
   margin-top: var(--v-layout-top);

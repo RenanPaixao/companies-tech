@@ -58,7 +58,9 @@ export default defineVuetifyConfiguration({
   theme: {
     defaultTheme: 'light',
     themes: {
-      light: { colors: {} },
+      light: {
+        colors: {},
+      },
       dark: { colors: {} },
     },
   },

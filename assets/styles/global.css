@@ -3,6 +3,11 @@ html {
   &.dark {
     color-scheme: dark;
   }
+
+  font-family: "Nunito", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
 }
 
 .v-card--variant-elevated:not(.v-card--flat) {
@@ -68,4 +73,12 @@ html {
 }
 .v-navigation-drawer {
   width: 256px;
+}
+
+
+/* By some reason I cannot add the color on Vuetify theme */
+:root {
+  --primary: #0262AD;
+  --secondary: #F49F36;
+  --background: #EBF6FF;
 }
