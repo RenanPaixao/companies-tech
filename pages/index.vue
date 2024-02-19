@@ -16,7 +16,7 @@
       específica atualmente.
     </p>
 
-    <v-btn class="mt-8"> Buscar empresa </v-btn>
+    <v-btn class="mt-8"> Buscar Empresa </v-btn>
   </v-container>
 </template>
 
@@ -34,8 +34,10 @@ button {
 }
 
 span {
-  color: #f6ab51;
+  color: var(--accent);
+  font-weight: bold;
 }
+
 .container {
   display: flex;
   flex-direction: column;
