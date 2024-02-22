@@ -6,8 +6,8 @@
     <p class="content mt-8">
       Bem-vindo ao <span>Tecnlogias nas empresas</span>! Aqui, você tem acesso a
       um banco de stack usadas nas empresas brasileiras. Se você está buscando
-      insights sobre as tecnologias que impulsionam as corporações, você está no
-      lugar certo.
+      insights sobre as tecnologias que impulsionam as corporações brasileiras,
+      você está no lugar certo.
     </p>
     <p class="mt-4">
       Oferecemos uma plataforma para explorar e compartilhar as stacks

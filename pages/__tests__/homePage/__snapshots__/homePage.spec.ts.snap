@@ -1,0 +1,35 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`Home Page > should render 1`] = `
+<div class="v-layout">
+  <div class="v-container v-locale--is-ltr px-12 text-justify container text-white">
+    <div class="v-avatar v-theme--light bg-white v-avatar--density-default v-avatar--variant-flat pa-3 logo" style="width: 120px; height: 120px;">
+      <div class="v-responsive v-img v-img--booting">
+        <div class="v-responsive__sizer"></div>
+        <transition-stub appear="true" css="true" name="fade-transition" persisted="false">
+          <img class="v-img__img v-img__img--cover" src="/assets/icons/logo.webp" style="display: none;">
+        </transition-stub>
+        <transition-stub appear="false" css="true" name="fade-transition" persisted="false">
+          <!---->
+        </transition-stub>
+        <!---->
+        <!---->
+        <!---->
+        <!---->
+      </div>
+      <!---->
+      <span class="v-avatar__underlay"></span>
+    </div>
+    <p class="content mt-8"> Bem-vindo ao <span>Tecnlogias nas empresas</span>! Aqui, você tem acesso a um banco de stack usadas nas empresas brasileiras. Se você está buscando insights sobre as tecnologias que impulsionam as corporações brasileiras, você está no lugar certo. </p>
+    <p class="mt-4"> Oferecemos uma plataforma para explorar e compartilhar as stacks tecnológicas mais relevantes, desde linguagens de programação até frameworks e plataformas de nuvem que são usadas em alguma empresa específica atualmente. </p>
+    <button class="v-btn v-btn--elevated v-theme--light v-btn--density-default v-btn--size-default v-btn--variant-elevated mt-8" type="button">
+      <span class="v-btn__overlay"></span>
+      <span class="v-btn__underlay"></span>
+      <!---->
+      <span class="v-btn__content" data-no-activator> Buscar Empresa </span>
+      <!---->
+      <!---->
+    </button>
+  </div>
+</div>
+`;
